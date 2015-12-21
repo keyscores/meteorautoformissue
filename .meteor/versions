@@ -3,6 +3,7 @@ accounts-password@1.1.4
 accounts-ui@1.1.6
 accounts-ui-unstyled@1.1.8
 aldeed:autoform@5.8.1
+aldeed:autoform-select2@2.0.2
 aldeed:collection2@2.7.0
 aldeed:simple-schema@1.3.3
 aldeed:template-extension@3.4.3
@@ -64,11 +65,11 @@ mobile-status-bar@1.0.6
 momentjs:moment@2.10.6
 mongo@1.1.3
 mongo-id@1.0.1
+natestrauser:select2@4.0.0_1
 npm-bcrypt@0.7.8_2
 npm-mongo@1.4.39_1
 observe-sequence@1.0.7
 ordered-dict@1.0.4
-percolate:migrations@0.9.7
 promise@0.5.1
 raix:eventemitter@0.1.3
 random@1.0.5
@@ -88,6 +89,7 @@ standard-minifiers@1.0.2
 templating@1.1.5
 templating-tools@1.0.0
 tracker@1.0.9
+twbs:bootstrap@3.3.6
 ui@1.0.8
 underscore@1.0.4
 url@1.0.5

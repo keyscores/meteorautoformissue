@@ -12,7 +12,6 @@ accounts-ui
 aldeed:template-extension
 autopublish
 accounts-password
-percolate:migrations
 comerc:bs-typeahead
 comerc:autoform-typeahead
 standard-minifiers
@@ -29,3 +28,6 @@ random
 ejson
 spacebars
 check
+twbs:bootstrap
+aldeed:autoform-select2
+natestrauser:select2

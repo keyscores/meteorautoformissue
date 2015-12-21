@@ -8,10 +8,10 @@ Meteor.startup(function(){
       month: 1,
       name: "Alberto",
       list: [{
-        project: "Jogo",
+        project: "A",
         hours: 7
       }, {
-        project: "Campanha",
+        project: "C",
         hours: 1
       }]
 
@@ -22,10 +22,10 @@ Meteor.startup(function(){
       month: 1,
       name: "Bernardo",
       list: [{
-        project: "Jogo",
+        project: "A",
         hours: 2
       }, {
-        project: "Campanha",
+        project: "B",
         hours: 9
       }]
 
@@ -36,10 +36,10 @@ Meteor.startup(function(){
       month: 2,
       name: "Bernardo",
       list: [{
-        project: "Jogo",
+        project: "A",
         hours: 2
       }, {
-        project: "Campanha",
+        project: "B",
         hours: 9
       }]
 

@@ -19,15 +19,12 @@ Hours.attachSchema(new SimpleSchema({
   name: {
     type: String,
     label: "Name",
-    autoform: {
-      class: 'browser-default',
-    }
+
   },
   month: {
     type: Number,
     label: "Month",
     autoform: {
-      class: 'browser-default',
       options: months
     }
   },
@@ -45,8 +42,13 @@ Hours.attachSchema(new SimpleSchema({
   'list.$.project': {
     label: "Project",
     type: String,
+
     autoform : {
-      type: "typeahead",
+      type: "select2",
+      select2Options: {
+        multiple:false
+      },
+
       options: function () {
         return [
           {label: "A", value: "A"},
@@ -62,6 +64,7 @@ Hours.attachSchema(new SimpleSchema({
   'list.$.hours': {
     label: "Hours",
     type: Number,
+    //optional: false,
     decimal: true
   }
 }));
