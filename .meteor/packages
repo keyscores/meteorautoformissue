@@ -1,0 +1,43 @@
+# Meteor packages used by this project, one per line.
+# Check this file (and the other files in this directory) into your repository.
+#
+# 'meteor add' and 'meteor remove' will edit this file for you,
+# but you can also edit it by hand.
+
+insecure
+aldeed:autoform
+aldeed:collection2
+peernohell:c3
+iron:router
+accounts-ui
+alanning:roles
+aldeed:template-extension
+axw:json2csv
+autopublish
+accounts-password
+agershun:alasql
+pfafman:filesaver
+momentjs:moment
+numeral:numeral
+keyscores:reactive-table
+houston:admin
+percolate:migrations
+vsivsi:job-collection
+comerc:bs-typeahead
+comerc:autoform-typeahead
+standard-minifiers
+meteor-base
+mobile-experience
+mongo
+blaze-html-templates
+session
+jquery
+tracker
+logging
+reload
+random
+ejson
+spacebars
+check
+materialize:materialize@=0.97.3
+keyscores:autoform-materialize

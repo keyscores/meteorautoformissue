@@ -1,0 +1,30 @@
+<head>
+  <title>Hive Projetos</title>
+</head>
+
+<body>
+</body>
+
+
+<template name="hoursForm">
+
+    {{#autoForm collection="Hours" doc=cursor id="hoursFormUpdate" type="update" }}
+
+  <div class="row">
+    <div class="col s6">
+      {{> afQuickField name='name' type="hidden"}}
+    </div>
+    <div class="col s6">
+      {{> afQuickField name='month' type="hidden"}}
+    </div>
+  </div>
+  <div class="row">
+      <div class="col s12">
+        {{> afArrayField name='list' template='keyscores'}}
+      </div>
+  </div>
+
+    <button type="submit" class="btn orange">Enviar</button>
+  {{/autoForm}}
+
+</template>
