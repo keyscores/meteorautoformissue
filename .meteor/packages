@@ -29,5 +29,3 @@ random
 ejson
 spacebars
 check
-materialize:materialize@=0.97.3
-keyscores:autoform-materialize
