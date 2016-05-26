@@ -31,40 +31,5 @@ Hours.attachSchema(new SimpleSchema({
   year: {
     type: Number,
     label: "Year",
-  },
-  list: {
-    type: Array,
-    //optional: true,
-  },
-  'list.$': {
-    type: Object
-  },
-  'list.$.project': {
-    label: "Project",
-    type: String,
-
-    autoform : {
-      type: "select2",
-      select2Options: {
-        multiple:false
-      },
-
-      options: function () {
-        return [
-          {label: "A", value: "A"},
-          {label: "B", value: "B"},
-          {label: "C", value: "C"},
-        ]
-      },
-      afFieldInput: {
-       multiple: false
-     }
-    }
-  },
-  'list.$.hours': {
-    label: "Hours",
-    type: Number,
-    //optional: false,
-    decimal: true
   }
 }));

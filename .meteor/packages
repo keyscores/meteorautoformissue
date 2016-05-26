@@ -7,13 +7,10 @@
 insecure
 aldeed:autoform
 aldeed:collection2
-iron:router
 accounts-ui
 aldeed:template-extension
 autopublish
 accounts-password
-comerc:bs-typeahead
-comerc:autoform-typeahead
 standard-minifiers
 meteor-base
 mobile-experience
@@ -29,5 +26,3 @@ ejson
 spacebars
 check
 twbs:bootstrap
-aldeed:autoform-select2
-natestrauser:select2

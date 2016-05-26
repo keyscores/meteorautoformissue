@@ -6,42 +6,20 @@ Meteor.startup(function(){
     Hours.insert({
       year: 2015,
       month: 1,
-      name: "Alberto",
-      list: [{
-        project: "A",
-        hours: 7
-      }, {
-        project: "C",
-        hours: 1
-      }]
+      name: "Albert",
 
     });
 
     Hours.insert({
       year: 2015,
       month: 1,
-      name: "Bernardo",
-      list: [{
-        project: "A",
-        hours: 2
-      }, {
-        project: "B",
-        hours: 9
-      }]
-
+      name: "Bernard",
     });
 
     Hours.insert({
       year: 2015,
       month: 2,
-      name: "Bernardo",
-      list: [{
-        project: "A",
-        hours: 2
-      }, {
-        project: "B",
-        hours: 9
-      }]
+      name: "Carl"
 
     });
 
